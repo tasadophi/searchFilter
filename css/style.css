@@ -1,0 +1,100 @@
+*,
+* ::after,
+* ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+@font-face {
+  font-family: "vazir";
+  src: url(../assets/font/Farsi-Digits/Vazir-FD.woff);
+}
+
+@font-face {
+  font-family: "vazirBold";
+  src: url(../assets/font/Farsi-Digits/Vazir-Bold-FD.woff);
+}
+
+/* variables */
+:root {
+  --colorPrimary: #6d28d9;
+  --colorSecondary: #ede9fe;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGray: #7c7c7c;
+  --mainRed: #db2777;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.1rem;
+  --bodyColor: #f6f6f6;
+}
+
+body {
+  background-color: var(--bodyColor);
+  font-family: "vazir";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* header */
+header {
+  background-color: var(--colorSecondary);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--colorPrimary);
+  row-gap: 2rem;
+  padding: 2rem 0;
+}
+
+.header h1 {
+  font-size: 4rem;
+}
+
+.header .search-box {
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  color: var(--colorPrimary);
+}
+
+::placeholder {
+  color: var(--colorPrimary);
+  opacity: 0.7;
+}
+.btns {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.btn {
+  border: 2px solid var(--colorPrimary);
+  background: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--mainTransition);
+}
+
+.btn:hover {
+  background-color: var(--colorPrimary);
+  color: var(--colorSecondary);
+}
