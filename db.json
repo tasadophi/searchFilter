@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "کالای ساعت",
+      "category": "ساعت",
+      "price": 850000,
+      "image": "./assets/images/1.png"
+    },
+    {
+      "id": 2,
+      "title": "کالای ساعت",
+      "category": "ساعت",
+      "price": 1199000,
+      "image": "./assets/images/2.png"
+    },
+    {
+      "id": 3,
+      "title": "کالای ساعت",
+      "category": "ساعت",
+      "price": 2200000,
+      "image": "./assets/images/13.png"
+    },
+    {
+      "id": 4,
+      "title": "کالای تیشرت",
+      "category": "تیشرت",
+      "price": 51000,
+      "image": "./assets/images/3.png"
+    },
+    {
+      "id": 5,
+      "title": "کالای تیشرت",
+      "category": "تیشرت",
+      "price": 49000,
+      "image": "./assets/images/4.png"
+    },
+    {
+      "id": 6,
+      "title": "کالای پیراهن",
+      "category": "پیراهن",
+      "price": 68000,
+      "image": "./assets/images/5.png"
+    },
+    {
+      "id": 7,
+      "title": "کالای پیراهن",
+      "category": "پیراهن",
+      "price": 75000,
+      "image": "./assets/images/7.png"
+    },
+    {
+      "id": 8,
+      "title": "کالای پیراهن",
+      "category": "پیراهن",
+      "price": 75000,
+      "image": "./assets/images/8.png"
+    },
+    {
+      "id": 9,
+      "title": "کالای جواهرات",
+      "category": "جواهرات",
+      "price": 3900000,
+      "image": "./assets/images/9.png"
+    },
+    {
+      "id": 10,
+      "title": "کالای جواهرات",
+      "category": "جواهرات",
+      "price": 2500000,
+      "image": "./assets/images/10.png"
+    },
+    {
+      "id": 11,
+      "title": "کالای جواهرات",
+      "category": "جواهرات",
+      "price": 1900000,
+      "image": "./assets/images/11.png"
+    },
+    {
+      "id": 12,
+      "title": "کالای جواهرات",
+      "category": "جواهرات",
+      "price": 590000,
+      "image": "./assets/images/12.png"
+    }
+  ]
+}
